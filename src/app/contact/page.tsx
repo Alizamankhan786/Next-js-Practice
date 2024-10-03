@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
 
-const About = () => {
+const Contact = () => {
   return (
     <>
-    <h1 className='text-center font-bold text-3xl'>About</h1>
+    <h1 className='text-center mt-5 text-3xl'>Contact</h1>
     <div style={{
       textAlign: "center",
       marginTop: "20px"
@@ -15,4 +15,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Contact
